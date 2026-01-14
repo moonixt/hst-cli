@@ -1,4 +1,5 @@
 # hst-cli
+<img width="892" height="392" alt="image" src="https://github.com/user-attachments/assets/2f1062ad-838d-4529-a34d-a40ee49adc80" />
 
 [![License](https://img.shields.io/github/license/moonixt/hst-cli)](https://github.com/moonixt/hst-cli/blob/main/LICENSE)
 [![npm version](https://img.shields.io/npm/v/@deimos24/hst-cli)](https://www.npmjs.com/package/@deimos24/hst-cli)
