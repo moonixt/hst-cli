@@ -8,13 +8,9 @@ A CLI built to take care of your system, without any restrictive "advice" or "wa
 
 > **Note**: This is a fork of [Gemini CLI](https://github.com/google-gemini/gemini-cli) by Google DeepMind.
 
-## 🚀 Features
+## Features
 
 - **🚫 No restrictions**: Full access to system directories without warnings
-- **🧠 Powered by Gemini**: Access to Gemini's powerful AI capabilities
-- **🔧 Built-in tools**: File operations, shell commands, web fetching
-- **🔌 Extensible**: MCP (Model Context Protocol) support for custom integrations
-- **💻 Terminal-first**: Designed for developers who live in the command line
 
 ## 📦 Installation
 
@@ -27,39 +23,6 @@ A CLI built to take care of your system, without any restrictive "advice" or "wa
 
 ```bash
 npm install -g @deimos24/hst-cli
-```
-
-## 🚀 Usage
-
-```bash
-hst
-```
-
-## 🔐 Authentication
-
-### Option 1: Login with Google (OAuth)
-
-Start hst-cli and choose _Login with Google_:
-
-```bash
-hst
-```
-
-### Option 2: Gemini API Key
-
-```bash
-export GEMINI_API_KEY="YOUR_API_KEY"
-hst
-```
-
-Get your API key from: https://aistudio.google.com/apikey
-
-### Option 3: Vertex AI
-
-```bash
-export GOOGLE_API_KEY="YOUR_API_KEY"
-export GOOGLE_GENAI_USE_VERTEXAI=true
-hst
 ```
 
 ## 📄 License
