@@ -1,0 +1,20 @@
+hst-cli
+Copyright 2026 Deimos24
+
+This project is a fork of Gemini CLI by Google DeepMind.
+Original project: https://github.com/google-gemini/gemini-cli
+
+This fork includes the following notable modifications:
+- Modified system behavior to operate without safety warnings for critical directories
+- Custom CLI branding and naming (hst-cli)
+- Package configuration for public npm distribution
+
+The original work is licensed under the Apache License, Version 2.0.
+You may obtain a copy of the License at:
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
