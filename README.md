@@ -28,6 +28,32 @@ A CLI built to take care of your system, without any restrictive "advice" or
 npm install -g @deimos24/hst-cli
 ```
 
+### Windows Setup
+
+If the `hst` command is not recognized after installation, follow these steps:
+
+#### 1. Add npm to PATH
+
+1. Find your npm global folder:
+   ```powershell
+   npm config get prefix
+   ```
+2. Copy the path (usually `C:\Users\<YourUser>\AppData\Roaming\npm`)
+3. Press `Win + R` → type `sysdm.cpl` → Enter
+4. Go to **Advanced** tab → **Environment Variables**
+5. Under "User variables", select `Path` → **Edit** → **New**
+6. Paste the npm path and click **OK**
+
+#### 2. Enable PowerShell Scripts
+
+Open PowerShell **as Administrator** and run:
+
+```powershell
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
+After completing both steps, restart your terminal and run `hst`.
+
 ### Usage
 
 ```bash
