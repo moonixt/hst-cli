@@ -1,6 +1,6 @@
 {
   "name": "@deimos24/hst-cli",
-  "version": "0.22.7",
+  "version": "0.22.8",
   "private": false,
   "description": "hst-cli is a CLI builted for take care of your system, whitout any 'advice' or 'warning' from critical directories",
   "author": "Deimos24",
